@@ -5,6 +5,7 @@ class Lock:
     def __init__(self, diameter : float = DEFAULT_DIAMETER, state : bool = DEFAULT_STATE):
         self._diameter = diameter
         self._state = state
+        self._needKey = False
 
     @property 
     def diameter(self) -> float:
@@ -17,4 +18,8 @@ class Lock:
     
     @state.setter
     def state(self, value: bool) -> None:
-        
+        if value == True:
+            self._needKey = True
+        if value == False:
+            self._needKey = False
+        self._state = value
