@@ -22,8 +22,8 @@ class Handle:
         return self._finish
 
     
-    @material_and_finish.setter
-    def material_and_finish(self, value: str) -> None:
+    @finish.setter
+    def finish(self, value: str) -> None:
         if value == 'Nickle':
             self._finish = 'Brushed'
         if value == 'Brass':
