@@ -1,0 +1,1 @@
+Code was created using a video playlist tutorial on Youtube by Corey Schafer "Python OOP Tutorials - Working with Classes"
