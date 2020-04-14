@@ -1,0 +1,1 @@
+An example of how the iterator pattern can be utilized, written in Java, heavily influenced by the iterator pattern example in Head First Design Patterns by Eric Freeman and Elisabeth Robson

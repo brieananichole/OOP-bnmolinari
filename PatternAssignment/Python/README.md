@@ -1,0 +1,1 @@
+Python model of how the iterator pattern would be used. 
