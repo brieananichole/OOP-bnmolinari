@@ -1,4 +1,4 @@
-package iteratormenu;
+
 
 public class CookieMenuIterator implements iteratormenu{
     MenuItem[] items;

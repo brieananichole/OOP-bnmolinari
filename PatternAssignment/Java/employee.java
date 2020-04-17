@@ -1,4 +1,3 @@
-package iteratormenu;
 
 public class Employee {
     Menu cakeMenu;
@@ -61,7 +60,7 @@ public class Employee {
             if (menuItem.isGlutenFree())
             {
                 System.out.print(menuItem.getName());
-                System.out.println("\t\t" + menuItem.getPrice())
+                System.out.println("\t\t" + menuItem.getPrice());
                 System.out.println("\t" +menuItem.getDescription());
             }
         }

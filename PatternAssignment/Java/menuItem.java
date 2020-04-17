@@ -1,6 +1,4 @@
-package iteratormenu;
-
-public class MenuItem (
+public class MenuItem {
     String name;
     String description;
     boolean gF;
@@ -38,5 +36,5 @@ public class MenuItem (
     {
         return (name + ", $" + price + "\n " + description);
     }
-)
+}
 
