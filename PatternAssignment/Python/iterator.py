@@ -4,16 +4,16 @@ def favorite_breakfast(count):
     breakfastItems = ["eggs", "bacon", "pancakes", "waffles", "sausage"]
 
     # The zip keeps from counting over the limit
-    for number, pos in zip(breakfastItems, range(count)):
-        yield number
+    for food, pos in zip(breakfastItems, range(count)):
+        yield food
 
 top_3_foods = lambda : favorite_breakfast(3)
 top_5_foods = lambda : favorite_breakfast(5)
 
 print("My top 3 breakfast foods are…")
-for number in top_3_foods():
-    print(number),
+for food in top_3_foods():
+    print(food),
 print("\n")
 print ("My top five breakfast foods are…")
-for number in top_5_foods():
-    print(number),
+for food in top_5_foods():
+    print(food),
