@@ -15,11 +15,13 @@ class Lock:
     def state(self) -> bool:
         return self._state
 
-    
     @state.setter
-    def state(self, value: bool) -> None:
+    def set_needKey(self, value : bool) -> None:
         if value == True:
             self._needKey = True
         if value == False:
             self._needKey = False
-        self._state = value
+
+    
+ 
+        

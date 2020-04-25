@@ -14,6 +14,7 @@ class HandleTest(unittest.TestCase):
         testDiameter : float = 2.75
         testMaterial : str  = 'Silver'
         handle = Handle(material = testMaterial, diameter = testDiameter)
+        handle.finish = testMaterial
         self.assertEqual(handle.diameter, testDiameter)
         self.assertEqual(handle.material, testMaterial)
         self.assertEqual(handle.finish, 'Polished')

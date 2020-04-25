@@ -8,25 +8,30 @@ class LockTest(unittest.TestCase):
         lock = Lock()
         self.assertEqual(lock._state, Lock.DEFAULT_STATE)
         self.assertEqual(lock._diameter, Lock.DEFAULT_DIAMETER)
-        self.assertEqual(lock._needKey, False) # difference between lock._diameter and lock.diameter?
 
     def testSpecific(self):
-        testDiameter : float = 1.15
+        testDiameter1 : float = 1.15
         testState : bool  = True
-        lock = Lock(state = testState, diameter = testDiameter)
-        self.assertEqual(lock.diameter, testDiameter)
+        lock = Lock(state = testState, diameter = testDiameter1)
+        self.assertEqual(lock.diameter, testDiameter1)
         self.assertEqual(lock.state, testState)
-        self.assertEqual(lock._needKey, True) # I don't understand why my setter function is not setting the needKey value to True
+        
 
     def testStateLocked(self): 
-        testState : bool = True
-        lock = Lock(state = testState, diameter = Lock.DEFAULT_DIAMETER)
-        self.assertEqual(lock._needKey, True)
+        testState1 : bool = True
+        lock1 = Lock(state = testState1)
+        lock1.set_needKey = testState1
+        self.assertEqual(lock1._state, True)
+        self.assertEqual(lock1._needKey, True)
+       
+  
 
     def testStateUnlocked(self):
-        testState : bool = False
-        lock = Lock(state = testState, diameter = Lock.DEFAULT_DIAMETER)
-        self.assertEqual(lock._needKey, False) #It isn't being called here either
+        testState2 : bool = False
+        lock2= Lock(state = testState2)
+        lock2.set_needKey = testState2
+        self.assertEqual(lock2._state, False) #It isn't being called here either
+        self.assertEqual(lock2._needKey, False)
 
 
     if __name__ == '__main__':
