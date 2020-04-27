@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayListIterator implements iterator {
+public class ArrayListIterator implements Iterator {
     ArrayList<MenuItem> items;
     int postion = 0;
 

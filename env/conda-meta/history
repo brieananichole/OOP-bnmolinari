@@ -1,0 +1,72 @@
+==> 2020-01-30 12:41:12 <==
+# cmd: /home/brieanamolinari/anaconda3/bin/conda create -p env python=3.8
+# conda version: 4.7.12
++defaults::_libgcc_mutex-0.1-main
++defaults::ca-certificates-2020.1.1-0
++defaults::certifi-2019.11.28-py38_0
++defaults::ld_impl_linux-64-2.33.1-h53a641e_7
++defaults::libedit-3.1.20181209-hc058e9b_0
++defaults::libffi-3.2.1-hd88cf55_4
++defaults::libgcc-ng-9.1.0-hdf63c60_0
++defaults::libstdcxx-ng-9.1.0-hdf63c60_0
++defaults::ncurses-6.1-he6710b0_1
++defaults::openssl-1.1.1d-h7b6447c_3
++defaults::pip-20.0.2-py38_1
++defaults::python-3.8.1-h0371630_1
++defaults::readline-7.0-h7b6447c_5
++defaults::setuptools-45.1.0-py38_0
++defaults::sqlite-3.30.1-h7b6447c_0
++defaults::tk-8.6.8-hbc83047_0
++defaults::wheel-0.34.1-py38_0
++defaults::xz-5.2.4-h14c3975_4
++defaults::zlib-1.2.11-h7b6447c_3
+# update specs: ['python=3.8']
+==> 2020-02-11 13:13:23 <==
+# cmd: /home/brieanamolinari/anaconda3/bin/conda install --prefix /home/brieanamolinari/projects/OOP/OOP-bnmolinari/env pylint
+# conda version: 4.8.1
+-defaults::_libgcc_mutex-0.1-main
+-defaults::ca-certificates-2020.1.1-0
+-defaults::certifi-2019.11.28-py38_0
+-defaults::ld_impl_linux-64-2.33.1-h53a641e_7
+-defaults::libedit-3.1.20181209-hc058e9b_0
+-defaults::libffi-3.2.1-hd88cf55_4
+-defaults::libgcc-ng-9.1.0-hdf63c60_0
+-defaults::libstdcxx-ng-9.1.0-hdf63c60_0
+-defaults::ncurses-6.1-he6710b0_1
+-defaults::openssl-1.1.1d-h7b6447c_3
+-defaults::pip-20.0.2-py38_1
+-defaults::python-3.8.1-h0371630_1
+-defaults::readline-7.0-h7b6447c_5
+-defaults::setuptools-45.1.0-py38_0
+-defaults::sqlite-3.30.1-h7b6447c_0
+-defaults::tk-8.6.8-hbc83047_0
+-defaults::wheel-0.34.1-py38_0
+-defaults::xz-5.2.4-h14c3975_4
+-defaults::zlib-1.2.11-h7b6447c_3
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::astroid-2.3.3-py38_0
++defaults/linux-64::ca-certificates-2020.1.1-0
++defaults/linux-64::certifi-2019.11.28-py38_0
++defaults/linux-64::isort-4.3.21-py38_0
++defaults/linux-64::lazy-object-proxy-1.4.3-py38h7b6447c_0
++defaults/linux-64::ld_impl_linux-64-2.33.1-h53a641e_7
++defaults/linux-64::libedit-3.1.20181209-hc058e9b_0
++defaults/linux-64::libffi-3.2.1-hd88cf55_4
++defaults/linux-64::libgcc-ng-9.1.0-hdf63c60_0
++defaults/linux-64::libstdcxx-ng-9.1.0-hdf63c60_0
++defaults/linux-64::mccabe-0.6.1-py38_1
++defaults/linux-64::ncurses-6.1-he6710b0_1
++defaults/linux-64::openssl-1.1.1d-h7b6447c_4
++defaults/linux-64::pip-20.0.2-py38_1
++defaults/linux-64::pylint-2.4.4-py38_0
++defaults/linux-64::python-3.8.1-h0371630_1
++defaults/linux-64::readline-7.0-h7b6447c_5
++defaults/linux-64::setuptools-45.1.0-py38_0
++defaults/linux-64::six-1.14.0-py38_0
++defaults/linux-64::sqlite-3.30.1-h7b6447c_0
++defaults/linux-64::tk-8.6.8-hbc83047_0
++defaults/linux-64::wheel-0.34.1-py38_0
++defaults/linux-64::wrapt-1.11.2-py38h7b6447c_0
++defaults/linux-64::xz-5.2.4-h14c3975_4
++defaults/linux-64::zlib-1.2.11-h7b6447c_3
+# update specs: ['pylint']

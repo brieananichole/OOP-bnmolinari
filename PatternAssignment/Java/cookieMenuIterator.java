@@ -1,6 +1,6 @@
 
 
-public class CookieMenuIterator implements iteratormenu{
+public class CookieMenuIterator implements Iterator{
     MenuItem[] items;
     int position = 0;
 
