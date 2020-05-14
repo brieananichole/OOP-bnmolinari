@@ -22,7 +22,8 @@ class Day:
 
 class Week(Day):
 
-    def __init__(self, ):
+    def __init__(self, difficulty : str):
+        self._difficulty = difficulty
         self.week = [] #empty list to represent the weekly schedule
         self.week.append(Day('Sunday'))
         self.week.append(Day('Monday'))
@@ -31,10 +32,17 @@ class Week(Day):
         self.week.append(Day('Thursday'))
         self.week.append(Day('Friday'))
         self.week.append(Day('Saturday'))
+
+    def printWorkout(self):
+        pass
+
     
 
 
 
 
-
-workout_Brie = Week()
+##Testing Code
+workout_Brie = Week('Hard')
+print(isinstance(workout_Brie, Week))
+print(workout_Brie.week[3].category)
+print(workout_Brie.week[5].category)
