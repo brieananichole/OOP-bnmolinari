@@ -9,6 +9,7 @@ class ExerciseTest(unittest.TestCase):
         exercise_test = Exercise("Box Jumps", False, "Legs")
         self.assertEqual(exercise_test.reps, Exercise.DEFAULT_REPS)
         self.assertEqual(exercise_test.weight, Exercise.DEFAULT_WEIGHT)
+        self.assertEqual(Exercise.num_of_exercises, 1) #this might be the problem if I didn't write the test right
 
     def testSpecifics(self):
         test_name : str = "Pull Ups"
